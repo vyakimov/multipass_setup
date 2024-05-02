@@ -1,4 +1,3 @@
 #!/bin/bash
 SHELL=`which bash`
-$HOME/setup_scripts/install_shell_integration_and_utilities.sh
-source ~/.iterm2_shell_integration.bash
+curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
