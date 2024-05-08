@@ -13,6 +13,7 @@ $HOME/miniconda3/bin/conda init bash
 $HOME/miniconda3/bin/conda init zsh
 $HOME/miniconda3/bin/conda config --set auto_stack 1
 $HOME/miniconda3/bin/conda config --set channel_priority strict
+$HOME/miniconda3/bin/conda install -y -c conda-forge ncurses
 $HOME/miniconda3/bin/conda install -y -c conda-forge mamba
 $HOME/miniconda3/bin/conda install -y -c conda-forge tmux 
 $HOME/miniconda3/bin/mamba create -y -c conda-forge -c bioconda -n snakemake snakemake
